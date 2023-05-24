@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <h2>Login</h2>
+
+    <label for="txt_usuario">Usuário</label><br>
+    <input type="text" id="txt_usuario" placeholder="Digite o usuário"><br>
+
+    <label for="txt_senha">Senha</label><br>
+    <input type="password"  id="txt_senha" placeholder="Digite a senha"><br>
+
+    <button onclick="login()">Entrar</button>
+    <button onclick="cadastrar()">cadastrar-se</button>
+</body>
+
+</html>
+
+<script>
+
+function cadastrar() {
+  window.location.href = './cadastro.html'
+}
+
+     function login() {
+        console.log("bati aqui")
+      var requestAutenticacao = {
+        "UserName": $("#txt_usuario").val(),
+        "Password": $("#txt_senha").val()
+      }
+
+      $.ajax({
+        url: "http://localhost:16549/Autenticacao",
+        type: "POST",
+        data: JSON.stringify(requestAutenticacao),
+        contentType: "application/json",
+        dataType: "json",
+        success: function (response) {
+            var token = response.token;
+            var usuarioId = response.usuarioId;
+            window.localStorage.setItem('token', token);
+            window.localStorage.setItem('usuarioId', usuarioId);
+            window.location.href = './index.html'  
+        },
+        error: function (request, message, error) {
+            alert("Erro de autentificação")
+        }
+      })
+    }
+</script>

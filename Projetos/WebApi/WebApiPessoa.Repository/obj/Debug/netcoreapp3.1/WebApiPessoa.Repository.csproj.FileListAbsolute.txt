@@ -1,0 +1,10 @@
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoa.Repository\bin\Debug\netcoreapp3.1\WebApiPessoa.Repository.deps.json
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoa.Repository\bin\Debug\netcoreapp3.1\WebApiPessoa.Repository.dll
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoa.Repository\bin\Debug\netcoreapp3.1\WebApiPessoa.Repository.pdb
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoa.Repository\obj\Debug\netcoreapp3.1\WebApiPessoa.Repository.csproj.AssemblyReference.cache
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoa.Repository\obj\Debug\netcoreapp3.1\WebApiPessoa.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoa.Repository\obj\Debug\netcoreapp3.1\WebApiPessoa.Repository.AssemblyInfoInputs.cache
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoa.Repository\obj\Debug\netcoreapp3.1\WebApiPessoa.Repository.AssemblyInfo.cs
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoa.Repository\obj\Debug\netcoreapp3.1\WebApiPessoa.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoa.Repository\obj\Debug\netcoreapp3.1\WebApiPessoa.Repository.dll
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoa.Repository\obj\Debug\netcoreapp3.1\WebApiPessoa.Repository.pdb

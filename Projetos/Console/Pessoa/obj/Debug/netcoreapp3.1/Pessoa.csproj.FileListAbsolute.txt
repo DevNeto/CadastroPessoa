@@ -1,0 +1,14 @@
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\Console\Pessoa\bin\Debug\netcoreapp3.1\Pessoa.exe
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\Console\Pessoa\bin\Debug\netcoreapp3.1\Pessoa.deps.json
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\Console\Pessoa\bin\Debug\netcoreapp3.1\Pessoa.runtimeconfig.json
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\Console\Pessoa\bin\Debug\netcoreapp3.1\Pessoa.runtimeconfig.dev.json
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\Console\Pessoa\bin\Debug\netcoreapp3.1\Pessoa.dll
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\Console\Pessoa\bin\Debug\netcoreapp3.1\Pessoa.pdb
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\Console\Pessoa\obj\Debug\netcoreapp3.1\Pessoa.csproj.AssemblyReference.cache
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\Console\Pessoa\obj\Debug\netcoreapp3.1\Pessoa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\Console\Pessoa\obj\Debug\netcoreapp3.1\Pessoa.AssemblyInfoInputs.cache
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\Console\Pessoa\obj\Debug\netcoreapp3.1\Pessoa.AssemblyInfo.cs
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\Console\Pessoa\obj\Debug\netcoreapp3.1\Pessoa.csproj.CoreCompileInputs.cache
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\Console\Pessoa\obj\Debug\netcoreapp3.1\Pessoa.dll
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\Console\Pessoa\obj\Debug\netcoreapp3.1\Pessoa.pdb
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\Console\Pessoa\obj\Debug\netcoreapp3.1\Pessoa.genruntimeconfig.cache

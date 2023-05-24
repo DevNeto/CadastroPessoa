@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastrar-se</title>
+</head>
+<body>
+    <h2>Cadastrar-se</h2>
+
+    <label for="txt_nome">Nome</label><br>
+    <input type="text" id="txt_nome" placeholder="Digite o nome"><br>
+
+    <label for="txt_usuario">Usuario</label><br>
+    <input type="text" id="txt_usuario" placeholder="Digite o usuario"><br>
+
+    <label for="txt_senha">Senha</label><br>
+    <input type="password"  id="txt_senha" placeholder="Digite a senha"><br>
+
+    <button onclick="cadastrar()">Cadastrar</button>
+</body>
+ 
+</html>
+
+<script>
+     function cadastrar() {
+        if($("#txt_nome").val() != '' &  $("#txt_usuario").val() != '' & $("#txt_senha").val() != ''){
+      var requestCadastro = {
+        "Nome": $("#txt_nome").val(),
+        "usuario": $("#txt_usuario").val(),
+        "senha": $("#txt_senha").val()
+      }
+
+      $.ajax({
+        url: "http://localhost:16549/Usuario",
+        type: "POST",
+        data: JSON.stringify(requestCadastro),
+        contentType: "application/json",
+        dataType: "json",
+        success: function (response) {
+            window.location.href = './login.html'
+        },
+        error: function (request, message, error) {
+            alert("Erro ao cadastrar usuario")
+        }
+      })
+    } else 
+    {
+        alert("Preencha todos os campos!")
+    }
+    }
+</script>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Alterar senha</title>
+</head>
+<body>
+    <h2>Alterar senha</h2>
+
+    <label for="txt_nome">Nome</label><br>
+    <input type="text" id="txt_nome" placeholder="Digite o nome"><br>
+
+    <label for="txt_usuario">Usuário</label><br>
+    <input type="text" id="txt_usuario" placeholder="Digite o usuário"><br>
+
+    <label for="txt_senha">Senha</label><br>
+    <input type="password"  id="txt_senha" placeholder="Digite a senha"><br>
+
+    <label for="txt_Confirmar_senha">Confirmar senha</label><br>
+    <input type="password"  id="txt_Confirmar_senha" placeholder="Digite a senha"><br>
+
+    <button onclick="verificarCampos()">Salvar</button>
+</body>
+
+</html>
+
+<script>
+
+function verificarCampos(){
+        if($("#txt_nome").val() != '' &  $("#txt_usuario").val() != '' & $("#txt_senha").val() != '' & $("#txt_Confirmar_senha").val() != '' ){
+            validarSenha()
+        } else {
+            alert("Preencha todos os campos!")
+        }
+    }
+    
+    function validarSenha() {
+
+        if($("#txt_senha").val() == $("#txt_Confirmar_senha").val())
+        {
+          AlterarSenha()
+        } else {
+            alert('Erro ao confimar senha, digite novamente')
+            $("#txt_senha").val('')
+            $("#txt_Confirmar_senha").val('')
+        }
+    }
+  
+
+     function AlterarSenha() {
+      var requestAlterarSenha = {
+        "Nome": $("#txt_nome").val(),
+        "usuario": $("#txt_usuario").val(),
+        "senha": $("#txt_senha").val()
+      }
+      
+      var id = window.localStorage.getItem('usuarioId')
+      var token = window.localStorage.getItem('token')
+
+      $.ajax({
+        url: "http://localhost:16549/Usuario/" + id,
+        type: "PUT",
+        data: JSON.stringify(requestAlterarSenha),
+        contentType: "application/json",
+        dataType: "json",
+        headers: {'Authorization': 'Bearer ' + token },
+        success: function (response) {
+            window.location.href = './login.html'
+        },
+        error: function (request, message, error) {
+            alert("Erro ao atualizar informações do usuario")
+        }
+      })
+    }
+</script>

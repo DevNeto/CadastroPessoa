@@ -1,0 +1,13 @@
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoaApplication\bin\Debug\netcoreapp3.1\WebApiPessoaApplication.deps.json
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoaApplication\bin\Debug\netcoreapp3.1\WebApiPessoaApplication.dll
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoaApplication\bin\Debug\netcoreapp3.1\WebApiPessoaApplication.pdb
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoaApplication\bin\Debug\netcoreapp3.1\WebApiPessoa.Repository.dll
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoaApplication\bin\Debug\netcoreapp3.1\WebApiPessoa.Repository.pdb
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoaApplication\obj\Debug\netcoreapp3.1\WebApiPessoaApplication.csproj.AssemblyReference.cache
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoaApplication\obj\Debug\netcoreapp3.1\WebApiPessoaApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoaApplication\obj\Debug\netcoreapp3.1\WebApiPessoaApplication.AssemblyInfoInputs.cache
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoaApplication\obj\Debug\netcoreapp3.1\WebApiPessoaApplication.AssemblyInfo.cs
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoaApplication\obj\Debug\netcoreapp3.1\WebApiPessoaApplication.csproj.CoreCompileInputs.cache
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoaApplication\obj\Debug\netcoreapp3.1\WebApiPessoaApplication.csproj.CopyComplete
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoaApplication\obj\Debug\netcoreapp3.1\WebApiPessoaApplication.dll
+C:\Users\Rafael Henrique\Documents\WorkSpaceVisualStudios\Projetos\WebApi\WebApiPessoaApplication\obj\Debug\netcoreapp3.1\WebApiPessoaApplication.pdb
